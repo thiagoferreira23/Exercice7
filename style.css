@@ -73,15 +73,15 @@ Text Domain: twentynineteen-child
   margin-top: 0.2em !important;
 }
 
-.bckgCarrousel {
+.rayure {
   background-image: repeating-linear-gradient(45deg, #111, #111 1px, #fff 1px, lightblue 8px);
 }
 
-.bckgCarrousel ul li {
+.rayure ul li {
   border: 2px solid #fff;
 }
 
-.bckgCarrousel ul li:last-child {
+.rayure ul li:last-child {
   margin-bottom: 0 !important;
 }
 
