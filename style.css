@@ -1,0 +1,64 @@
+/*
+Theme Name: Twenty Nineteen - Child
+Theme URI: 127.0.0.1/twentynineteen
+Description: Twenty Nineteen Child Theme
+Author: Thiago Ferreira
+Author URI: thiagoferreira.ca
+Template: twentynineteen
+Version: 1.0
+Text Domain: twentynineteen-child
+*/
+/************ Imports ************/
+/** Variables **/
+/** Mixins **/
+/** Extends **/
+/** Header **/
+.entry .entry-title:before {
+  background: none;
+  content: "";
+  display: none;
+}
+
+.site-logo .custom-logo-link {
+  border-radius: 0;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: none;
+  transition: none;
+}
+
+.site-logo .custom-logo-link:hover {
+  border: none;
+}
+
+/** Navigation **/
+.main-menu a {
+  font-size: 0.8em;
+}
+
+@media screen and (max-width: 500px) {
+  .site-description {
+    white-space: pre-line;
+  }
+  .main-menu a {
+    font-size: 0.6em;
+  }
+}
+
+/** Content **/
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.content-title {
+  margin-bottom: 0.2em !important;
+}
+
+.content-text {
+  margin-top: 0.2em !important;
+}
+
+/** Footer **/
+/*********************************/
+/*# sourceMappingURL=style.css.map */

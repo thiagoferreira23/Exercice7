@@ -1,0 +1,19 @@
+.main-menu {
+    a {
+        font-size: 0.8em;
+    }
+}
+
+//Media Query - Mobile
+@include MobilePortrait() {
+
+    .site-description {
+        white-space: pre-line;
+    }
+
+    .main-menu {
+        a {
+            font-size: 0.6em;
+        }
+    }
+}

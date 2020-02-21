@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "AAAA;;;;;;;;;EASE;AAEF,mCAAmC;AAEnC,iBAAiB;AAGjB,cAAc;AAGd,eAAe;AAGf,cAAc;AItBd,AAEQ,MAFF,CACF,YAAY,AACP,OAAO,CAAC;EACL,UAAU,EAAE,IAAI;EAChB,OAAO,EAAE,EAAE;EACX,OAAO,EAAE,IAAI;CAChB;;AAIT,AACI,UADM,CACN,iBAAiB,CAAC;EACd,aAAa,EAAE,CAAC;EAChB,OAAO,EAAE,KAAK;EACd,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EAEZ,UAAU,EAAE,IAAI;CAKnB;;AAZL,AASQ,UATE,CACN,iBAAiB,AAQZ,MAAM,CAAC;EACJ,MAAM,EAAE,IAAI;CACf;;AJIT,kBAAkB;AKzBlB,AACI,UADM,CACN,CAAC,CAAC;EACE,SAAS,EAAE,KAAK;CACnB;;AHFD,MAAM,CAAC,MAAM,MAAM,SAAS,EAAE,KAAK;EGQnC,AAAA,iBAAiB,CAAC;IACd,WAAW,EAAE,QAAQ;GACxB;EAED,AACI,UADM,CACN,CAAC,CAAC;IACE,SAAS,EAAE,KAAK;GACnB;;;ALYT,eAAe;AM5Bf,AAAA,CAAC,CAAC;EACE,WAAW,EAAE,oBAAoB;CACpC;;AAED,AAAA,cAAc,CAAC;EACX,aAAa,EAAE,gBAAgB;CAClC;;AAED,AAAA,aAAa,CAAC;EACV,UAAU,EAAE,gBAAgB;CAC/B;;ANqBD,cAAc;AAGd,mCAAmC",
+    "sources": [
+        "scss/style.scss",
+        "scss/_variables.scss",
+        "scss/_mixins.scss",
+        "scss/_extends.scss",
+        "scss/_header.scss",
+        "scss/_navigation.scss",
+        "scss/_content.scss",
+        "scss/_footer.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

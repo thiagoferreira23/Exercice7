@@ -1,0 +1,53 @@
+/*
+Theme Name: Twenty Nineteen - Child
+Theme URI: 127.0.0.1/twentynineteen
+Description: Twenty Nineteen Child Theme
+Author: Thiago Ferreira
+Author URI: thiagoferreira.ca
+Template: twentynineteen
+Version: 1.0
+Text Domain: twentynineteen-child
+*/
+
+/************ Imports ************/
+
+/** Variables **/
+/** Mixins **/
+/** Extends **/
+/** Header **/
+/** Navigation **/
+/** Default Settings (Content) **/
+/** Content **/
+/** Gutenberg Classes **/
+/** Footer **/
+
+/*********************************/
+
+/** Variables **/
+@import "_variables.scss";
+
+/** Mixins **/
+@import "_mixins.scss";
+
+/** Extends **/
+@import "_extends.scss";
+
+/** Header **/
+@import "_header.scss";
+
+/** Navigation **/
+@import "_navigation.scss";
+
+/** Default Settings (Content) **/
+@import "_defaultSettings.scss";
+
+/** Content **/
+@import "_defaultSettings.scss";
+
+/** Gutenberg Classes **/
+@import "_gutenberg.scss";
+
+/** Footer **/
+@import "_footer.scss";
+
+/*********************************/
