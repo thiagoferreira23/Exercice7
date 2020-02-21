@@ -22,7 +22,7 @@ window.addEventListener("scroll", function(){
     let buttonTop = document.querySelector(".contenuTexte");
     let amountScrl = amountscrolled();
 
-    if (amountScrl >= 35){
+    if (amountScrl >= 50){
         buttonTop.classList.add("animbloc1");
     }
 
