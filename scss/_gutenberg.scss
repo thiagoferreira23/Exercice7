@@ -1,7 +1,21 @@
 .content-title {
-    margin-bottom: 0.2em !important; 
+  margin-bottom: 0.2em !important;
 }
 
 .content-text {
-    margin-top: 0.2em !important; 
+  margin-top: 0.2em !important;
+}
+
+.bckgCarrousel {
+  @include GradientLines($black, $black, $white, $lightblue);
+
+  ul {
+    li {
+      border: 2px solid $white;
+
+      &:last-child {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
 }

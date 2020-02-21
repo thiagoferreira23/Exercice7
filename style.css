@@ -13,9 +13,17 @@ Text Domain: twentynineteen-child
 /** Mixins **/
 /** Extends **/
 /** Header **/
+/** Navigation **/
+/** Default Settings (Content) **/
+/** Content **/
+/** Gutenberg Classes **/
+/** Footer **/
+/*********************************/
+/** Variables **/
+/** Mixins **/
+/** Extends **/
+/** Header **/
 .entry .entry-title:before {
-  background: none;
-  content: "";
   display: none;
 }
 
@@ -46,17 +54,35 @@ Text Domain: twentynineteen-child
   }
 }
 
+/** Default Settings (Content) **/
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 /** Content **/
 * {
   font-family: 'Roboto', sans-serif;
 }
 
+/** Gutenberg Classes **/
 .content-title {
   margin-bottom: 0.2em !important;
 }
 
 .content-text {
   margin-top: 0.2em !important;
+}
+
+.bckgCarrousel {
+  background-image: repeating-linear-gradient(45deg, #111, #111 1px, #fff 1px, lightblue 8px);
+}
+
+.bckgCarrousel ul li {
+  border: 2px solid #fff;
+}
+
+.bckgCarrousel ul li:last-child {
+  margin-bottom: 0 !important;
 }
 
 /** Footer **/
