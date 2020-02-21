@@ -1,5 +1,15 @@
 @mixin MobilePortrait() {
-    @media screen and (max-width: 500px) {
-        @content;
-    }
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin GradientLines($firstColor, $secondColor, $thirdColor, $bckgColor) {
+  background-image: repeating-linear-gradient(
+    45deg,
+    $firstColor,
+    $secondColor 1px,
+    $thirdColor 1px,
+    $bckgColor 8px /* determines size */
+  );
 }
