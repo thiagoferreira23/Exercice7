@@ -5,3 +5,29 @@
 .content-text {
     margin-top: 0.2em !important; 
 }
+
+
+.contenuTexte {
+    transform: translateX(-100vw);
+}
+
+.animbloc1 {
+    animation: animbloc1 2s ease-out forwards;
+}
+
+@keyframes animbloc1 {
+    from {
+        transform: skewX(45deg);
+        transform: translateX(-50vw);
+    }
+    50% {
+        transform: translateX(0vw);
+        transform: skewX(-10deg);
+    }
+    75% {
+        transform: skewX(0deg);
+    }
+    to {
+        transform: translateX(0vw);
+    }
+}

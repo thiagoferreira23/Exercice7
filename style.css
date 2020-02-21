@@ -13,9 +13,17 @@ Text Domain: twentynineteen-child
 /** Mixins **/
 /** Extends **/
 /** Header **/
+/** Navigation **/
+/** Default Settings (Content) **/
+/** Content **/
+/** Gutenberg Classes **/
+/** Footer **/
+/*********************************/
+/** Variables **/
+/** Mixins **/
+/** Extends **/
+/** Header **/
 .entry .entry-title:before {
-  background: none;
-  content: "";
   display: none;
 }
 
@@ -46,17 +54,79 @@ Text Domain: twentynineteen-child
   }
 }
 
+/** Default Settings (Content) **/
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 /** Content **/
 * {
   font-family: 'Roboto', sans-serif;
 }
 
+/** Gutenberg Classes **/
 .content-title {
   margin-bottom: 0.2em !important;
 }
 
 .content-text {
   margin-top: 0.2em !important;
+}
+
+.contenuTexte {
+  -webkit-transform: translateX(-100vw);
+          transform: translateX(-100vw);
+}
+
+.animbloc1 {
+  -webkit-animation: animbloc1 2s ease-out forwards;
+          animation: animbloc1 2s ease-out forwards;
+}
+
+@-webkit-keyframes animbloc1 {
+  from {
+    -webkit-transform: skewX(45deg);
+            transform: skewX(45deg);
+    -webkit-transform: translateX(-50vw);
+            transform: translateX(-50vw);
+  }
+  50% {
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw);
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+  }
+  75% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+  }
+  to {
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw);
+  }
+}
+
+@keyframes animbloc1 {
+  from {
+    -webkit-transform: skewX(45deg);
+            transform: skewX(45deg);
+    -webkit-transform: translateX(-50vw);
+            transform: translateX(-50vw);
+  }
+  50% {
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw);
+    -webkit-transform: skewX(-10deg);
+            transform: skewX(-10deg);
+  }
+  75% {
+    -webkit-transform: skewX(0deg);
+            transform: skewX(0deg);
+  }
+  to {
+    -webkit-transform: translateX(0vw);
+            transform: translateX(0vw);
+  }
 }
 
 /** Footer **/
