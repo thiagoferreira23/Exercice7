@@ -79,10 +79,48 @@ Text Domain: twentynineteen-child
 
 .rayure ul li {
   border: 2px solid #fff;
+  opacity: 0;
+  -webkit-animation: animOpacity 2s ease-in forwards;
+          animation: animOpacity 2s ease-in forwards;
 }
 
-.rayure ul li:last-child {
+.rayure ul li:nth-child(1) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.rayure ul li:nth-child(2) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+.rayure ul li:nth-child(3) {
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
+}
+
+.rayure ul li:nth-child(4) {
+  -webkit-animation-delay: 1.6s;
+          animation-delay: 1.6s;
   margin-bottom: 0 !important;
+}
+
+@-webkit-keyframes animOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes animOpacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /** Footer **/
